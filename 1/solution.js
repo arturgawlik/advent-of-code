@@ -35,7 +35,6 @@ console.log("[PART_1] answer: ", wholeDistance);
 /**
  * PART 2
  */
-
 let similarityScore = 0;
 left.forEach((leftNumber) => {
   const rightHitCount = right.reduce(
